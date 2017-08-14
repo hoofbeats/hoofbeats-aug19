@@ -70,7 +70,7 @@ gulp.task('css', () => {
   return gulp.src('css/main.css')
     .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
     .pipe($.cssnano())
-    .pipe(gulp.dest('_includes'));
+    .pipe(gulp.dest('_includes/'));
 });
 
 // Compile scss to css.
