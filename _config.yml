@@ -8,10 +8,10 @@ email: HoofbeatsHealth@gmail.com
 description: a digital toolbox for managing your healthcare
 baseurl: "hoofbeats"
 url: "https://hoofbeats.github.io"
-repository: hoofbeats.github.io
+repository: hoofbeats/hoofbeats.github.io
 
 twitter_username: HoofbeatsHealth
-github_username:  Hoofbeats
+github_username:  hoofbeats
 fb_id: 333599240332696
 google_analytics: UA-76343771-1
 google_site_verification: UA-76343771-1
@@ -19,6 +19,10 @@ ga_username: UA-76343771-1
 prime-trial-banner: "amp/_store/_prime_trial_320x50.html"
 
 # Build settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
 markdown: kramdown
 permalink: /:title/
 excerpt_separator: <!-- excerpt -->
