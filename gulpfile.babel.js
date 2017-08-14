@@ -70,7 +70,7 @@ gulp.task('css', () => {
   return gulp.src('css/main.css')
     .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
     .pipe($.cssnano())
-    .pipe(gulp.dest('_site/css'));
+    .pipe(gulp.dest('_includes'));
 });
 
 // Compile scss to css.
@@ -100,6 +100,7 @@ gulp.task('serve', ['jekyll-build'], () => {
     'css/**/*.css',
     'scripts/**/*.js',
     '_includes/**/*.html',
+    '_includes/*.css',
     '_layouts/**/*.html',
     '_posts/**/*.md',
     'index.html'

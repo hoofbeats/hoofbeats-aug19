@@ -1,0 +1,8 @@
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<link rel="shortcut icon" href="{{ site.github.url }}/{{ site.favicon }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ site.github.url }}/feed.xml" }}">
+<link rel="manifest" href="{{ site.github.url }}/manifest.json" }}">
+
+<!--uncomment this duplicate if jekyll plugin seo-tag isn't installed in site (canonical link is included)-->
+<link rel="canonical" href="{{ site.github.url | replace:'index.html','' | absolute_url }}">
