@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "name": "hoofbeats",
-  "launch_path": "/index.html",
+  "name": "Hoofbeats",
+  "launch_path": "",
   "description": "a digital toolbox for managing your healthcare",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
   "developer": {
-    "name": "",
-    "url": ""
+    "name": "Hoofbeats Health",
+    "url": "https://hoofbeats.github.io/about"
   },
   "installs_allowed_from": [
     "*"

@@ -15,10 +15,10 @@
 
     {% include footer.html %}
 
-  <link async href="{{ "/scripts/main.min.js" | relative_url }}">
+  <link async href="{{ "/scripts/main.min.js" | absolute_url }}">
   <script>
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("{{ "/sw.js" | relative_url }}").then(function() {
+    navigator.serviceWorker.register("{{ "/sw.js" | absolute_url }}").then(function() {
       console.log("Service Worker Registered");
     });
   }
