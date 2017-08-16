@@ -12,10 +12,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
   color: #414141;
   background-color: #fafafa;
   -webkit-text-size-adjust: 100%; }
@@ -59,6 +59,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400; }
 
 /**
